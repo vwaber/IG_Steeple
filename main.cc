@@ -15,7 +15,7 @@
 */
 
 //Header file for the project.
-#include"project2.h"
+#include"main.h"
 
 //Screen size constants
 #define SCREENSIZE_X 512

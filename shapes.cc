@@ -1,4 +1,4 @@
-#include"project2.h"
+#include"main.h"
 
 //Draws X, Y, and Z axes for reference
 void drawAxis(const GLfloat* xColor, const GLfloat* yColor, const GLfloat* zColor)
@@ -19,7 +19,7 @@ void drawAxis(const GLfloat* xColor, const GLfloat* yColor, const GLfloat* zColo
 	glEnd();
 }
 
-//Draws a simple flat squre
+//Draws a simple flat square
 //Lighting may not be correct
 void square( )
 {

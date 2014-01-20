@@ -1,4 +1,4 @@
-#include"project2.h"
+#include"main.h"
 
 #define PI 3.14159265358979323846
 
