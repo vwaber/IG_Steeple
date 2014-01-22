@@ -406,7 +406,7 @@ int main(int argc, char **argv)
    glutInit(&argc, argv);
    glutInitDisplayMode( GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH );
    glutInitWindowSize(SCREENSIZE_X, SCREENSIZE_Y);
-   glutCreateWindow("IG_Project2_waberv");
+   glutCreateWindow("IG_Steeple");
 
    init( );
 
