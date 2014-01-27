@@ -157,7 +157,7 @@ void archWindow()
 	glPushMatrix();
 
 	glTranslatef(0, 0, 0.25);	
-	glScalef(1.125, 1.125, 0.125);
+	glScalef(1.125, 1.125, 1);
 
 	glPushMatrix();
 		glTranslatef(0, 3.5, 0);		
@@ -406,7 +406,7 @@ int main(int argc, char **argv)
    glutInit(&argc, argv);
    glutInitDisplayMode( GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH );
    glutInitWindowSize(SCREENSIZE_X, SCREENSIZE_Y);
-   glutCreateWindow("IG_Steeple");
+   glutCreateWindow("IG_Steeple | Use The Arrow Keys!");
 
    init( );
 
